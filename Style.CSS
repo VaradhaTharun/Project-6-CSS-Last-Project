@@ -1,0 +1,37 @@
+div{
+right: 30px;
+border: 3px solid red;
+}
+
+div.realitive{
+    position: sticky;
+    border: 30px solid red;
+    top: 30px;
+    height: 20px;
+    width: 20px;
+
+}
+
+div.relative{
+position:relative;
+top:3px;
+left: 100px;
+width:100px;
+border: 2px solid rgb(255, 230, 0);
+}
+div.absolute{
+    position:absolute;
+    height: 90px;
+    width: 90px;
+    right: 40px;
+    left: 90px;
+    border: 2px solid rgb(55, 255, 0) ;
+}
+div.fixed{
+    position: fixed;
+    border: 3px solid rgb(21, 0, 128);
+    left: 30px;
+    top: 0px;
+    height: 100px;
+    width: 100px;
+}
